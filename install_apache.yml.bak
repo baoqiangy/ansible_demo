@@ -1,0 +1,18 @@
+---
+
+- hosts: all
+  become: true
+  tasks:
+
+  - name: install apache and php
+    package:
+            update_cache: yes
+            name: 
+                - "{{ apache_package }}"
+                - "{{ php_package }}"
+            state: latest
+
+  # To-do:
+  # systemctl start httpd
+  # firewall-cmd --add-port=80/tcp
+  #

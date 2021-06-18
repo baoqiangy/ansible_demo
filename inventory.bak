@@ -1,0 +1,4 @@
+ubuntu@server1 apache_package=apache2 php_package=libapache2-mod-php
+ubuntu@server2 apache_package=apache2 php_package=libapache2-mod-php
+ubuntu@server3 apache_package=apache2 php_package=libapache2-mod-php
+cmwsu@centos   apache_package=httpd   php_package=php
