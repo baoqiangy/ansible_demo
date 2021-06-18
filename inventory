@@ -1,4 +1,9 @@
+[web_servers]
 ubuntu@server1
-ubuntu@server2
-ubuntu@server3
 cmwsu@centos
+
+[db_servers] 
+ubuntu@server2
+
+[file_servers]
+ubuntu@server3
