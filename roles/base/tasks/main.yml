@@ -1,0 +1,6 @@
+- name: add ssh key for faculty
+  tags: always
+  authorized_key:
+          user: faculty
+          key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAi2z2ojIYgVNxLqwy4SfprnIUfRzGtUjgwlerD2oQZZ ansible"
+
