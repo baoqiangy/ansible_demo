@@ -7,3 +7,6 @@ ubuntu@server2
 
 [file_servers]
 ubuntu@server3
+
+[work_stations]
+byan@workstation
